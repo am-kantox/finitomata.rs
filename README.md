@@ -55,8 +55,8 @@ finitomata.rust/
 │   │   ├── timer.rs          # FsmTimer (tokio interval)
 │   │   ├── listener.rs       # Listener trait + implementations
 │   │   ├── persistency/      # Persistency trait + InMemoryPersistency
-│   │   └── parser/           # Mermaid + PlantUML parsers
-│   └── examples/             # Runnable examples
+│   │   ├── parser/           # Mermaid + PlantUML parsers
+│   │   └── examples/         # Runnable examples
 └── finitomata_macro/         # Proc macro crate (#[finitomata])
 ```
 
