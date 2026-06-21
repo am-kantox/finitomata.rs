@@ -8,6 +8,7 @@ repository.workspace = true
 homepage.workspace = true
 description = "Finite state machines with rich lifecycle callbacks, persistence, and supervision"
 documentation = "https://docs.rs/finitomata"
+readme = "README.md"
 keywords = ["fsm", "state-machine", "finite-state-machine", "actor", "async"]
 categories = ["asynchronous", "concurrency", "rust-patterns", "data-structures"]
 

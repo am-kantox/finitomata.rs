@@ -72,7 +72,7 @@ dependencies = [
 
 [[package]]
 name = "finitomata"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "async-trait",
  "dashmap",
@@ -86,7 +86,7 @@ dependencies = [
 
 [[package]]
 name = "finitomata_macro"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "proc-macro2",
  "quote",

@@ -3,7 +3,7 @@ resolver = "2"
 members = ["finitomata", "finitomata_macro"]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Aleksei Matiushkin"]
 license = "MIT OR Apache-2.0"
