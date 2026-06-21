@@ -1,0 +1,36 @@
+[package]
+name = "finitomata"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Finite state machines with rich lifecycle callbacks, persistence, and supervision"
+
+[dependencies]
+finitomata_macro = { path = "../finitomata_macro" }
+tokio.workspace = true
+async-trait.workspace = true
+dashmap.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+serde.workspace = true
+joerl = "0.7.1"
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }
+
+[[example]]
+name = "turnstile"
+path = "../examples/turnstile.rs"
+
+[[example]]
+name = "order_workflow"
+path = "../examples/order_workflow.rs"
+
+[[example]]
+name = "persistent_fsm"
+path = "../examples/persistent_fsm.rs"
+
+[[example]]
+name = "supervised_fsm"
+path = "../examples/supervised_fsm.rs"

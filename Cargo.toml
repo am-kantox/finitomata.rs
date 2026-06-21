@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["finitomata", "finitomata_macro"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["Aleksei Matiushkin"]
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+tokio = { version = "1.48", features = ["full"] }
+async-trait = "0.1"
+dashmap = "6"
+thiserror = "2"
+tracing = "0.1"
+serde = { version = "1", features = ["derive"] }
