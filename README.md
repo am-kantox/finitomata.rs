@@ -42,22 +42,22 @@ Finitomata provides:
 
 ```
 finitomata.rust/
-├── finitomata/           # Main library crate
-│   └── src/
-│       ├── lib.rs        # Public re-exports
-│       ├── callbacks.rs  # Finitomata trait (user implements)
-│       ├── engine.rs     # Transition orchestration
-│       ├── supervisor.rs # FinitomataSupervisor (joerl-backed)
-│       ├── transition.rs # TransitionGraph, validation, pathfinding
-│       ├── state.rs      # FsmState, Lifecycle, BoundedHistory
-│       ├── error.rs      # Error types
-│       ├── cache.rs      # DashMap-backed state cache
-│       ├── timer.rs      # FsmTimer (tokio interval)
-│       ├── listener.rs   # Listener trait + implementations
-│       ├── persistency/  # Persistency trait + InMemoryPersistency
-│       └── parser/       # Mermaid + PlantUML parsers
-├── finitomata_macro/     # Proc macro crate (#[finitomata])
-└── examples/             # Runnable examples
+├── finitomata/               # Main library crate
+│   ├── src/
+│   │   ├── lib.rs            # Public re-exports
+│   │   ├── callbacks.rs      # Finitomata trait (user implements)
+│   │   ├── engine.rs         # Transition orchestration
+│   │   ├── supervisor.rs     # FinitomataSupervisor (joerl-backed)
+│   │   ├── transition.rs     # TransitionGraph, validation, pathfinding
+│   │   ├── state.rs          # FsmState, Lifecycle, BoundedHistory
+│   │   ├── error.rs          # Error types
+│   │   ├── cache.rs          # DashMap-backed state cache
+│   │   ├── timer.rs          # FsmTimer (tokio interval)
+│   │   ├── listener.rs       # Listener trait + implementations
+│   │   ├── persistency/      # Persistency trait + InMemoryPersistency
+│   │   └── parser/           # Mermaid + PlantUML parsers
+│   └── examples/             # Runnable examples
+└── finitomata_macro/         # Proc macro crate (#[finitomata])
 ```
 
 ---

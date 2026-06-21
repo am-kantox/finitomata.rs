@@ -4,7 +4,12 @@ version.workspace = true
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
+repository.workspace = true
+homepage.workspace = true
 description = "Finite state machines with rich lifecycle callbacks, persistence, and supervision"
+documentation = "https://docs.rs/finitomata"
+keywords = ["fsm", "state-machine", "finite-state-machine", "actor", "async"]
+categories = ["asynchronous", "concurrency", "rust-patterns", "data-structures"]
 
 [dependencies]
 finitomata_macro = { path = "../finitomata_macro", version = "0.1.0" }
@@ -18,19 +23,3 @@ joerl = "0.7.1"
 
 [dev-dependencies]
 tokio = { workspace = true, features = ["test-util"] }
-
-[[example]]
-name = "turnstile"
-path = "../examples/turnstile.rs"
-
-[[example]]
-name = "order_workflow"
-path = "../examples/order_workflow.rs"
-
-[[example]]
-name = "persistent_fsm"
-path = "../examples/persistent_fsm.rs"
-
-[[example]]
-name = "supervised_fsm"
-path = "../examples/supervised_fsm.rs"

@@ -4,7 +4,12 @@ version.workspace = true
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
+repository.workspace = true
+homepage.workspace = true
 description = "Procedural macros for the finitomata FSM library"
+documentation = "https://docs.rs/finitomata_macro"
+keywords = ["fsm", "state-machine", "macro", "proc-macro", "derive"]
+categories = ["development-tools"]
 
 [lib]
 proc-macro = true
